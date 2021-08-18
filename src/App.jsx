@@ -3,6 +3,7 @@ import React from 'react'
 
 import Card from './components/layout/Card'
 
+import IndiretaPai from './components/comunicacao/IndiretaPai.jsx'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
 import ParOuImpar from './components/condicional/ParOuImpar'
@@ -23,6 +24,10 @@ const App = _ =>
         <div className="Cards">
             <Card titulo='12 - Contador' color="#AF7AC5">
                 <Contador numeroInicial={10}></Contador>
+            </Card>
+
+            <Card titulo='10 - Comunicação Indireta' color="#8BAD39">
+                <IndiretaPai/>
             </Card>
 
             <Card titulo='09 - Comunicação Direta' color="#59323C">
