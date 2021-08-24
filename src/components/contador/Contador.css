@@ -8,7 +8,9 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: #2471A3;
+    background-color: #1499D3;
     color: white;
     font-size: 1.4rem;
+    border: 0;
+    cursor: pointer;
 }
